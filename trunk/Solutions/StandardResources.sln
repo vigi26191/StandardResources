@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StandardResources.API", "StandardResources.API", "{8E4ABE62-96F4-4F1F-BD2D-63FE86BCC712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardResources.API", "..\Web\StandardResources.API\StandardResources.API.csproj", "{449DB6CA-C3CF-4675-B9AB-FD41164E5989}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StandardResources.Business", "StandardResources.Business", "{1D2074B3-8BF0-46D1-A549-8C49C83823F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardResources.BAL", "..\Libraries\StandardResources.BAL\StandardResources.BAL.csproj", "{B6362280-2AEA-47BF-8AAA-C894C8FF403B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StandardResources.Data", "StandardResources.Data", "{7433C94A-4092-4363-B8BE-421C54AB0D0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardResources.DAL", "..\Libraries\StandardResources.DAL\StandardResources.DAL.csproj", "{DC88E119-5A27-453B-BEC6-26ED1C144796}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StandardResources.Entities", "StandardResources.Entities", "{5AFFF86C-D9FA-4FE6-A452-9806CE89D5AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardResources.Entities", "..\Libraries\StandardResources.Entities\StandardResources.Entities.csproj", "{A9EC22F0-C67F-429A-BE9D-C987B263F21B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StandardResources.Repositories", "StandardResources.Repositories", "{782DF75B-2EF6-4ABA-8980-F2C1E54DC193}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardResources.IRepositories", "..\Libraries\StandardResources.IRepositories\StandardResources.IRepositories.csproj", "{E8CBCB29-69FD-47D0-AEC4-1A8E067506C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StandardResources.Utilities", "StandardResources.Utilities", "{9B2C208E-BE7D-482D-B586-9FBA60952B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardResources.Utilities", "..\Libraries\StandardResources.Utilities\StandardResources.Utilities.csproj", "{D70B5906-2B7C-423D-981D-A73A35444CC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{449DB6CA-C3CF-4675-B9AB-FD41164E5989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{449DB6CA-C3CF-4675-B9AB-FD41164E5989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{449DB6CA-C3CF-4675-B9AB-FD41164E5989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{449DB6CA-C3CF-4675-B9AB-FD41164E5989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6362280-2AEA-47BF-8AAA-C894C8FF403B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6362280-2AEA-47BF-8AAA-C894C8FF403B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6362280-2AEA-47BF-8AAA-C894C8FF403B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6362280-2AEA-47BF-8AAA-C894C8FF403B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC88E119-5A27-453B-BEC6-26ED1C144796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC88E119-5A27-453B-BEC6-26ED1C144796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC88E119-5A27-453B-BEC6-26ED1C144796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC88E119-5A27-453B-BEC6-26ED1C144796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9EC22F0-C67F-429A-BE9D-C987B263F21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9EC22F0-C67F-429A-BE9D-C987B263F21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9EC22F0-C67F-429A-BE9D-C987B263F21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9EC22F0-C67F-429A-BE9D-C987B263F21B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8CBCB29-69FD-47D0-AEC4-1A8E067506C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8CBCB29-69FD-47D0-AEC4-1A8E067506C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8CBCB29-69FD-47D0-AEC4-1A8E067506C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8CBCB29-69FD-47D0-AEC4-1A8E067506C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70B5906-2B7C-423D-981D-A73A35444CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70B5906-2B7C-423D-981D-A73A35444CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70B5906-2B7C-423D-981D-A73A35444CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70B5906-2B7C-423D-981D-A73A35444CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{449DB6CA-C3CF-4675-B9AB-FD41164E5989} = {8E4ABE62-96F4-4F1F-BD2D-63FE86BCC712}
+		{B6362280-2AEA-47BF-8AAA-C894C8FF403B} = {1D2074B3-8BF0-46D1-A549-8C49C83823F3}
+		{DC88E119-5A27-453B-BEC6-26ED1C144796} = {7433C94A-4092-4363-B8BE-421C54AB0D0C}
+		{A9EC22F0-C67F-429A-BE9D-C987B263F21B} = {5AFFF86C-D9FA-4FE6-A452-9806CE89D5AB}
+		{E8CBCB29-69FD-47D0-AEC4-1A8E067506C5} = {782DF75B-2EF6-4ABA-8980-F2C1E54DC193}
+		{D70B5906-2B7C-423D-981D-A73A35444CC9} = {9B2C208E-BE7D-482D-B586-9FBA60952B7D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C4504F4-50E1-4D24-A50D-236505A853B6}
+	EndGlobalSection
+EndGlobal
