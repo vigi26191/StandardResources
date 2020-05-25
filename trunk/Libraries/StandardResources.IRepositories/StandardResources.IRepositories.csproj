@@ -43,7 +43,14 @@
   <ItemGroup>
     <Compile Include="Contracts\IRepository.cs" />
     <Compile Include="Contracts\IUnitOfWork.cs" />
+    <Compile Include="IUserRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StandardResources.Entities\StandardResources.Entities.csproj">
+      <Project>{a9ec22f0-c67f-429a-be9d-c987b263f21b}</Project>
+      <Name>StandardResources.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

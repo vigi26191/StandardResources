@@ -1,0 +1,5 @@
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Utilities\bin\Debug\StandardResources.Utilities.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Utilities\bin\Debug\StandardResources.Utilities.pdb
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Utilities\obj\Debug\StandardResources.Utilities.csproj.CoreCompileInputs.cache
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Utilities\obj\Debug\StandardResources.Utilities.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Utilities\obj\Debug\StandardResources.Utilities.pdb

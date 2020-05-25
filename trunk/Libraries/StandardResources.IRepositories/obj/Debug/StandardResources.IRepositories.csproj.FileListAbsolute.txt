@@ -1,0 +1,16 @@
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\bin\Debug\StandardResources.IRepositories.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\bin\Debug\StandardResources.IRepositories.pdb
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\bin\Debug\StandardResources.Entities.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\bin\Debug\EntityFramework.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\bin\Debug\StandardResources.Entities.pdb
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\bin\Debug\StandardResources.Entities.dll.config
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\bin\Debug\EntityFramework.xml
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\obj\Debug\StandardResources.IRepositories.csprojAssemblyReference.cache
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\obj\Debug\StandardResources.IRepositories.csproj.CoreCompileInputs.cache
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\obj\Debug\StandardResources.IRepositories.csproj.CopyComplete
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\obj\Debug\StandardResources.IRepositories.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.IRepositories\obj\Debug\StandardResources.IRepositories.pdb

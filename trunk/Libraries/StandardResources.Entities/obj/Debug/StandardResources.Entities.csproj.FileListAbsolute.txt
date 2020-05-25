@@ -1,0 +1,16 @@
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\bin\Debug\StandardResources.Entities.dll.config
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\bin\Debug\StandardResources.Entities.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\bin\Debug\StandardResources.Entities.pdb
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\bin\Debug\EntityFramework.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\bin\Debug\EntityFramework.xml
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\obj\Debug\StandardResources.Entities.csprojAssemblyReference.cache
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\obj\Debug\StandardResources.Entities.csproj.CoreCompileInputs.cache
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\obj\Debug\StandardResources.Entities.csproj.CopyComplete
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\obj\Debug\StandardResources.Entities.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.Entities\obj\Debug\StandardResources.Entities.pdb

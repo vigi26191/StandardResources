@@ -1,0 +1,5 @@
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.BAL\bin\Debug\StandardResources.BAL.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.BAL\bin\Debug\StandardResources.BAL.pdb
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.BAL\obj\Debug\StandardResources.BAL.csproj.CoreCompileInputs.cache
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.BAL\obj\Debug\StandardResources.BAL.dll
+D:\Learning Stuff\Workspace\StandardResources\trunk\Libraries\StandardResources.BAL\obj\Debug\StandardResources.BAL.pdb
