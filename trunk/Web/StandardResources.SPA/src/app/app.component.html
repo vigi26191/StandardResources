@@ -1,0 +1,6 @@
+<div *ngIf="!authService.loggedIn()">
+    <app-login></app-login>
+</div>
+<div *ngIf="authService.loggedIn()">
+    <app-nav></app-nav>
+</div>

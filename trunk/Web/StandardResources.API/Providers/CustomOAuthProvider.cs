@@ -1,12 +1,13 @@
-﻿using Microsoft.AspNet.Identity.Owin;
+﻿using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.OAuth;
 using StandardResources.API.Infrastructure;
-using StandardResources.Entities.Constants;
 using StandardResources.Entities.Domain;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using static StandardResources.Entities.Constants.Constants;
 
 namespace StandardResources.API.Providers
 {
@@ -26,13 +27,19 @@ namespace StandardResources.API.Providers
 
             var userManager = context.OwinContext.GetUserManager<ApplicationUserManager>();
 
+            var userInfo = await context.Request.ReadFormAsync();
+
+            var userEmail = userInfo.Where(w => w.Key == "email").SingleOrDefault().Value;
+
             ApplicationUser user = await userManager.FindByNameAsync(context.UserName);
 
             if (user == null)
             {
-                var userInfo = await context.Request.ReadFormAsync();
-
-                var userEmail = userInfo.Where(w => w.Key == "email").SingleOrDefault().Value;
+                if(userEmail == null)
+                {
+                    context.SetError("invalid_login", "Invalid user details, please register.");
+                    return;
+                }
 
                 user = new ApplicationUser()
                 {
@@ -44,7 +51,16 @@ namespace StandardResources.API.Providers
 
                 if (userAddedResult.Succeeded)
                 {
-                    var roleAddesResult = await userManager.AddToRoleAsync(user.Id, Constants.RoleNames.ACCOUNT);
+                    var roleAddesResult = await userManager.AddToRoleAsync(user.Id, RoleNames.ACCOUNT);
+                }
+            }
+            else
+            {
+                var isValidUser = userManager.CheckPassword(user, context.Password);
+                if (!isValidUser)
+                {
+                    context.SetError("incorrect_password", "Incorrect password.");
+                    return;
                 }
             }
 

@@ -1,0 +1,86 @@
+<div class="login-form">
+    <main class="main d-flex align-items-center">
+        <div class="container">
+            <div class="col-md-8 mx-auto">
+                <div class="card-group">
+                    <div class="card p-4">
+                        <div class="card-body login-card">
+                            <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+                                <div class="pull-right">
+
+                                </div>
+                                <br><br>
+                                <h2>Login</h2>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-user"></i></span>
+                                    </div>
+                                    <input type="text" id="txtLoginUsername" class="form-control" placeholder="Username"
+                                        ngModel name="userName" required autocomplete="off" autofocus>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                                    </div>
+                                    <input type="password" id="txtLoginPassword" class="form-control"
+                                        placeholder="password" ngModel name="password" required autocomplete="off">
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <button type="submit" class="btn btn-primary px-4">
+                                            <i class="fa fa-sign-in"></i>
+                                            &nbsp;Login
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card p-4 bg-dark">
+                        <div class="card-body login-card text-light">
+                            <form #registerForm="ngForm" (ngSubmit)="register(registerForm)">
+                                <div class="pull-right">
+
+                                </div>
+                                <br><br>
+                                <h2>Register</h2>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-envelope-open"></i></span>
+                                    </div>
+                                    <input type="email" id="txtRegisterEmail" class="form-control"
+                                        placeholder="Email address" ngModel name="email" required
+                                        autocomplete="off">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-user"></i></span>
+                                    </div>
+                                    <input type="text" id="txtRegisterUsername" class="form-control"
+                                        placeholder="Username" ngModel name="userName" required
+                                        autocomplete="off">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                                    </div>
+                                    <input type="password" id="txtRegisterPassword" class="form-control"
+                                        placeholder="password" ngModel name="password" required
+                                        autocomplete="off">
+                                </div>
+                                <div class="row">
+                                    <div class="col-8">
+                                        <button type="submit" class="btn btn-primary px-4">
+                                            <i class="fa fa-user-plus"></i>
+                                            &nbsp;Register
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>

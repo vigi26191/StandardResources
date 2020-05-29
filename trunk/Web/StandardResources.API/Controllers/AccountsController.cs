@@ -15,26 +15,5 @@ namespace StandardResources.API.Controllers
         {
             return "done!";
         }
-
-        //[AllowAnonymous]
-        //[Route("register")]
-        //public async Task<IHttpActionResult> Register(UserModel userModel)
-        //{
-        //    if (!ModelState.IsValid)
-        //    {
-        //        return BadRequest(ModelState);
-        //    }
-
-        //    IdentityResult result = await _repo.RegisterUser(userModel);
-
-        //    IHttpActionResult errorResult = GetErrorResult(result);
-
-        //    if (errorResult != null)
-        //    {
-        //        return errorResult;
-        //    }
-
-        //    return Ok();
-        //}
     }
 }
